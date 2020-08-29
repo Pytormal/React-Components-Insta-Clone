@@ -10,7 +10,7 @@ const Comments = props => {
   return (
     // comments.map(props =>
       <div >
-        
+      <span className='comments'>{Comment.text}</span>
       {
         /* map through the comments prop and render a Comment for every piece of data */
       }
